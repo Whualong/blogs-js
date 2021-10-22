@@ -115,23 +115,39 @@ Promise.race = (promises) => {
   })
 }
 
+// Promise.all = (promises) => {
+//   const result = []
+//   let i = 0
+//   let copyResolve = null
+//   function processPromise (data, index) {
+//     result[index] = data
+//     i++
+//     if (i === promises.length) {
+//       copyResolve(result)
+//     }
+//   }
+//   return new Promise((resolve, reject) => {
+//     copyResolve = resolve
+//     promises.forEach((promise, index) => {
+//       promise.then((res) => {
+//         processPromise(res, index)
+//       }, reject)
+//     })
+//   })
+// }
+
 Promise.all = (promises) => {
   const result = []
   let i = 0
-  let copyResolve = null
-  function processPromise (data, index) {
-    result[index] = data
-    i++
-    if (i === promises.length) {
-      copyResolve(result)
-    }
-  }
   return new Promise((resolve, reject) => {
-    copyResolve = resolve
-    promises.forEach((promise, index) => {
-      promise.then((res) => {
-        processPromise(res, index)
-      }, reject)
+    promises.forEach((item, index) => {
+      Promise.resolve(item).then((data) => {
+        result[index] = data
+        i++
+        if (i === promises.length) {
+          resolve(result)
+        }
+      }).catch(reject)
     })
   })
 }
