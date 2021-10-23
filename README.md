@@ -26,4 +26,4 @@
 
 [02.<font color=plum>阻止手动刷新或关闭页面</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/02-prevent.js)
 
-
+[03.<font color=plum>页面加载过程中性能表现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/03-performance.js)
