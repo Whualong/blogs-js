@@ -22,6 +22,8 @@
 
 #### js 常用工具
 
-[01.<font color=plum>检查数据类型</font>](https://github.com/codeWen666/blogs-js/blob/d4010ea5bba863ea256234e59a089c27d9a4d3a8/src/algorithm/01-type.js)
+[01.<font color=plum>检查数据类型</font>](https://github.com/codeWen666/blogs-js/blob/d4010ea5bba863ea256234e59a089c27d9a4d3a8/src/utils/01-type.js)
+
+[02.<font color=plum>阻止手动刷新或关闭页面</font>](https://github.com/codeWen666/blogs-js/blob/d4010ea5bba863ea256234e59a089c27d9a4d3a8/src/utils/02-prevent.js)
 
 
