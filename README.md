@@ -2,7 +2,7 @@
 个人博客，关于js的原生知识、算法、vue框架的原理学习，与君共勉
 #### js 重点
 
-[01.<font color=plum>串行执行promise</font>](https://github.com/codeWen666/blogs-js/blob/d4010ea5bba863ea256234e59a089c27d9a4d3a8/src/origin/01-sequence.js)
+[01.<font color=plum>串行执行promise</font>](https://github.com/codeWen666/blogs-js/src/origin/01-sequence.js)
 
 [02.<font color=plum>实现一个完整的promise 通过A+测试</font>](https://github.com/codeWen666/blogs-js/blob/d4010ea5bba863ea256234e59a089c27d9a4d3a8/src/origin/02-promise.js)
 
