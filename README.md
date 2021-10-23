@@ -14,6 +14,11 @@
 
 [06.<font color=plum>new</font>](https://github.com/codeWen666/blogs-js/blob/d4010ea5bba863ea256234e59a089c27d9a4d3a8/src/origin/06-new.js)
 
+[07.<font color=plum>sequence</font>](https://github.com/codeWen666/blogs-js/blob/d4010ea5bba863ea256234e59a089c27d9a4d3a8/src/origin/07-sequence.js)
+
+#### js基础算法
+
+[01.<font color=plum>quickSort</font>](https://github.com/codeWen666/blogs-js/blob/d4010ea5bba863ea256234e59a089c27d9a4d3a8/src/algorithm/01-quickSort.js)
 
 
 
