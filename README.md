@@ -16,6 +16,8 @@
 
 [07.<font color=plum>调度promise并发数</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/07-dispatch.js)
 
+[08.<font color=plum>instanceOf 实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/08-instanceOf.js)
+
 #### js 基础算法
 
 [01.<font color=plum>快速排序</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
@@ -27,3 +29,11 @@
 [02.<font color=plum>阻止手动刷新或关闭页面</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/02-prevent.js)
 
 [03.<font color=plum>页面加载过程中性能表现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/03-performance.js)
+
+[04.<font color=plum>数组扁平化</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/04-flat.js)
+
+[05.<font color=plum>数组去重</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/05-unique.js)
+
+[06.<font color=plum>去抖动</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/06-debounce.js)
+
+[07.<font color=plum>节流</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/07-throttle.js)
