@@ -37,3 +37,5 @@
 [06.<font color=plum>去抖动</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/06-debounce.js)
 
 [07.<font color=plum>节流</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/07-throttle.js)
+
+[08.<font color=plum>使用promise包装jsonp</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/08-jsonp.js)
