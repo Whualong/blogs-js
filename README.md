@@ -39,3 +39,7 @@
 [07.<font color=plum>节流</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/07-throttle.js)
 
 [08.<font color=plum>使用promise包装jsonp</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/08-jsonp.js)
+
+#### js 性能优化
+
+[01.<font color=plum>使用迭代器时间分片优化渲染</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.html)
