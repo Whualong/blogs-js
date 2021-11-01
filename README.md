@@ -18,6 +18,8 @@
 
 [08.<font color=plum>instanceOf 实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/08-instanceOf.js)
 
+[09.<font color=plum>promise/async 实现交通信号灯</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/09-light.html)
+
 #### js 基础算法
 
 [01.<font color=plum>快速排序</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
