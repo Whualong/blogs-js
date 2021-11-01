@@ -43,3 +43,7 @@
 #### js 性能优化
 
 [01.<font color=plum>使用迭代器时间分片优化渲染</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.html)
+
+#### vue 基础原理
+
+[01.<font color=plum>scoped的原理</font>](https://github.com/codeWen666/blogs-js/tree/main/src/vue/01-scoped.md)
