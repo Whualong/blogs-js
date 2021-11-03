@@ -1,5 +1,10 @@
 ## blogs-js
-个人博客，关于js的原生知识、算法、vue框架的原理学习，与君共勉
+个人博客，关于css、js的原生知识、算法、vue框架的原理学习，与君共勉
+
+#### css 技巧
+
+[01.<font color=plum>保持与ios底部白条的安全距离</font>](https://github.com/codeWen666/blogs-js/tree/main/src/css/01-apple.css)
+
 #### js 重点
 
 [01.<font color=plum>串行执行promise</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/01-sequence.js)
