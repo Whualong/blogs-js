@@ -25,6 +25,8 @@
 
 [09.<font color=plum>promise/async 实现交通信号灯</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/09-light.html)
 
+[10.<font color=plum>var、let、const、以及函数声明的理解</font>](https://blog.csdn.net/weixin_43601527/article/details/121154133?spm=1001.2014.3001.5501)
+
 #### js 基础算法
 
 [01.<font color=plum>快速排序</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
