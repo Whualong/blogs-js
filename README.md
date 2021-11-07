@@ -29,7 +29,7 @@
 
 [11.<font color=plum>js中?.和??运算符的用法</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/10-operator.js)
 
-[11.<font color=plum>js中Object.create的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/11-create.js)
+[12.<font color=plum>js中Object.create的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/11-create.js)
 
 #### js 基础算法
 
