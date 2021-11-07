@@ -27,6 +27,10 @@
 
 [10.<font color=plum>var、let、const、以及函数声明的理解</font>](https://blog.csdn.net/weixin_43601527/article/details/121154133?spm=1001.2014.3001.5501)
 
+[11.<font color=plum>js中?.和??运算符的用法</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/10-operator.js)
+
+[11.<font color=plum>js中Object.create的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/11-create.js)
+
 #### js 基础算法
 
 [01.<font color=plum>快速排序</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
