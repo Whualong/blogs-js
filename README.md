@@ -60,3 +60,6 @@
 #### vue 基础原理
 
 [01.<font color=plum>scoped的原理</font>](https://github.com/codeWen666/blogs-js/tree/main/src/vue/01-scoped.md)
+
+[02.<font color=plum>vue中绑定key值的分析</font>](https://blog.csdn.net/weixin_43601527/article/details/121246362)
+
