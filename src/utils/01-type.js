@@ -9,6 +9,8 @@ function checkType (what) {
 }
 // 测试
 let b = 12n
+let gen = function *test()
+async function test( ) {}
 console.log(checkType())
 console.log(checkType('1'))
 console.log(checkType(1))
@@ -20,6 +22,8 @@ console.log(checkType(/\d/))
 console.log(checkType(new Date()))
 console.log(checkType(null))
 console.log(checkType(val => val))
+console.log(checkType(gen))
+console.log(checkType(test))          
 
 // 输出结果
 // undefined
@@ -33,3 +37,5 @@ console.log(checkType(val => val))
 // date
 // null
 // function
+// generatorfunction
+// asyncfunction
