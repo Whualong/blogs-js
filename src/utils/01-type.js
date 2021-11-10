@@ -10,7 +10,7 @@ function checkType (what) {
 // 测试
 let b = 12n
 let gen = function *test()
-async function test( ) {}
+async function sync( ) {}
 console.log(checkType())
 console.log(checkType('1'))
 console.log(checkType(1))
@@ -23,7 +23,7 @@ console.log(checkType(new Date()))
 console.log(checkType(null))
 console.log(checkType(val => val))
 console.log(checkType(gen))
-console.log(checkType(test))          
+console.log(checkType(sync))          
 
 // 输出结果
 // undefined
