@@ -1,6 +1,4 @@
 ## blogs-js
-![](./src/assets/images/index.png)<br>
-
 **个人博客，关于css、js的原生知识、算法、vue框架的原理学习，与君共勉**
 ___
 
