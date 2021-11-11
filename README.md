@@ -36,6 +36,7 @@ ___
 
 [13.<font color=plum>js中隐式转换的情况分析</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/13-false.md)
 
+[14.<font color=plum>js中数组遍历方法的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/14-array.md)
 
 ___
 
