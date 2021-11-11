@@ -34,7 +34,7 @@ ___
 
 [12.<font color=plum>js中Object.create的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/11-create.js)
 
-[13.<font color=plum>js中布尔值隐式转换的情况</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/13-false.md)
+[13.<font color=plum>js中隐式转换的情况分析</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/13-false.md)
 
 
 ___
