@@ -95,3 +95,8 @@ ___
 
 [02.<font color=plum>vue中绑定key值的分析</font>](https://blog.csdn.net/weixin_43601527/article/details/121246362)
 
+___
+
+#### node 重点
+
+[01.<font color=plum>node中 process.nextTick、setImmediate分析</font>](https://github.com/codeWen666/blogs-js/tree/main/src/node/01-scoped.md)
