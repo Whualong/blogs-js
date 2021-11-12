@@ -151,6 +151,29 @@ Promise.all = (promises) => {
     })
   })
 }
+
+Promise.allSettled = (promises) => {
+  const result = []
+  let i = 0
+  return new Promise((resolve, reject) => {
+    promises.forEach((item, index) => {
+      Promise.resolve(item).then((data) => {
+        result[index] = data
+        i++
+        if (i === promises.length) {
+          resolve(result)
+        }
+      },(err)=>{
+        result[index] = err
+        i++
+        if (i === promises.length) {
+          resolve(result)
+        }
+      })
+    })
+  })
+}
+
 function resolvePromise (p, x, resolve, reject) {
   if (p === x) {
     return reject(new TypeError('chain cycle'))
