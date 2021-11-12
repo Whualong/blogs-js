@@ -60,7 +60,7 @@ ___
 
 [08.<font color=plum>实现类似getElementsByClassName的功能</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
 
-[01.<font color=plum>实现一个二叉树</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
+[09.<font color=plum>实现一个二叉树</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
 ___
 
 #### js 常用工具
