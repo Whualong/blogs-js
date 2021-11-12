@@ -46,6 +46,21 @@ ___
 
 [01.<font color=plum>快速排序</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
 
+[02.<font color=plum>判断回文字符串</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
+
+[03.<font color=plum>统计一个字符串出现最多的字母</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
+
+[04.<font color=plum>不使用临时变量交换两个整数</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
+
+[05.<font color=plum>绘制斐波那契数列曲线</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
+
+[06.<font color=plum>找出正数数组的最大差值</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
+
+[07.<font color=plum>随机生成指定长度的字符串</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
+
+[08.<font color=plum>实现类似getElementsByClassName的功能</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
+
+[01.<font color=plum>实现一个二叉树</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
 ___
 
 #### js 常用工具
