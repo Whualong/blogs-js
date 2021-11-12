@@ -67,7 +67,6 @@ let obj = {
 * 情况四
 
 ```
-
 let obj = {
   name : 'test'
 }
@@ -75,4 +74,11 @@ console.log(obj) // 自己本身 调用的是valueOf
 alert(obj) // [object object] 调用的是toString
 toString 偏向于显示
 valueOf 偏向于计算
+```
+* 情况五
+```
+[] + {} // '[object object]'
+{} + [] // 0 
+在谷歌浏览器下 {} + [] 相当于 + [] // 0
+在ie浏览器下（不支持块级作用域）{} + [] // '[object object]'
 ```
