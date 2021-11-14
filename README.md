@@ -1,14 +1,29 @@
-## blogs-js
+## blog 
 **个人博客，关于css、js的原生知识、算法、vue框架的原理学习，与君共勉**
-___
 
-#### css 技巧
+#### 目录
+
+|          名称          | 条数 |
+| :--------------------: | :--: |
+|    [css技巧]( #css)    |  1   |
+|     [js重点](#js1)     |  20  |
+|   [js基础算法](#js2)   |  9   |
+|   [js常用工具](#js3)   |  8   |
+| [js常用设计模式](#js4) |  4   |
+|   [js性能优化](#js5)   |  1   |
+|  [vue基础原理](#vue)   |  4   |
+|   [node重点](#node)    |  1   |
+|          总计          |  48  |
+
+
+
+#### <p id='css'>css 技巧</p>
 
 [01.<font color=plum>保持与ios底部白条的安全距离</font>](https://github.com/codeWen666/blogs-js/tree/main/src/css/01-apple.css)
 
 ___
 
-#### js 重点
+#### <p id='js1'>js 重点</p>
 
 [01.<font color=plum>串行执行promise</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/01-sequence.js)
 
@@ -40,9 +55,19 @@ ___
 
 [15.<font color=plum>js中使用尾递归降低空间复杂度</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
 
+[16.<font color=plum>前端开发者陌生的ArrayBuffer、视图</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+
+[17.<font color=plum>你应该了解的requestAnimationFrame</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+
+[18.<font color=plum>偏函数</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+
+[19.<font color=plum>函数柯里化（lodash库）</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+
+[20.<font color=plum>组合函数compose和pipe的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+
 ___
 
-#### js 基础算法
+#### <p id='js2'>js 基础算法</p>
 
 [01.<font color=plum>快速排序</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
 
@@ -63,7 +88,7 @@ ___
 [09.<font color=plum>实现一个二叉树</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.js)
 ___
 
-#### js 常用工具
+#### <p id='js3'>js 常用工具</p>
 
 [01.<font color=plum>检查数据类型</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/01-type.js)
 
@@ -83,20 +108,36 @@ ___
 
 ___
 
-#### js 性能优化
+#### <p id='js4'>js 常用的设计模式</p>
+
+[01.<font color=plum>单例模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.html)
+
+[02.<font color=plum>观察者模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.html)
+
+[03.<font color=plum>发布订阅模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.html)
+
+[04.<font color=plum>代理模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.html)
+
+___
+
+#### <p id='js5'>js 性能优化</p>
 
 [01.<font color=plum>使用迭代器时间分片优化渲染</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.html)
 
 ___
 
-#### vue 基础原理
+#### <p id='vue'>vue 基础原理</p>
 
 [01.<font color=plum>scoped的原理</font>](https://github.com/codeWen666/blogs-js/tree/main/src/vue/01-scoped.md)
 
 [02.<font color=plum>vue中绑定key值的分析</font>](https://blog.csdn.net/weixin_43601527/article/details/121246362)
 
+[03.<font color=plum>vuex的简易实现</font>](https://blog.csdn.net/weixin_43601527/article/details/121246362)
+
+[04.<font color=plum>vue-router的原理分析</font>](https://blog.csdn.net/weixin_43601527/article/details/121246362)
+
 ___
 
-#### node 重点
+#### <p id='node'>node 重点</p>
 
 [01.<font color=plum>node中 process.nextTick、setImmediate分析</font>](https://github.com/codeWen666/blogs-js/tree/main/src/node/01-scoped.md)
