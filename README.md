@@ -53,15 +53,15 @@ ___
 
 [15.<font color=plum>js中使用尾递归降低空间复杂度</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
 
-[16.<font color=plum>前端开发者陌生的ArrayBuffer、视图</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+[16.<font color=plum>前端开发者陌生的ArrayBuffer、视图</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/16-dataView.md)
 
-[17.<font color=plum>你应该了解的requestAnimationFrame</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+[17.<font color=plum>你应该了解的requestAnimationFrame</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/17-raf.md)
 
-[18.<font color=plum>偏函数</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+[18.<font color=plum>偏函数</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/18-pianFun.md)
 
-[19.<font color=plum>函数柯里化（lodash库）</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+[19.<font color=plum>函数柯里化（lodash库）</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/19-curry.md)
 
-[20.<font color=plum>组合函数compose和pipe的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+[20.<font color=plum>组合函数compose和pipe的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/20-compose.md)
 
 ___
 
