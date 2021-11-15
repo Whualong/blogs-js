@@ -108,7 +108,7 @@ ___
 
 #### <p id='js4'>js 常用的设计模式</p>
 
-[01.<font color=plum>单例模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.html)
+[01.<font color=plum>单例模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/design/01-singleton.md)
 
 [02.<font color=plum>观察者模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.html)
 
