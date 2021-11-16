@@ -1,3 +1,4 @@
+```js
 /*
  *@description: js 中 new 的原理
 
@@ -27,3 +28,5 @@ function _new () {
   }
   return ctx
 }
+
+```

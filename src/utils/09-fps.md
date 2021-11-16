@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 检测浏览器帧率
  *@modifyContent:
@@ -16,3 +17,5 @@ function getFps () {
     }
   }
 }
+
+```

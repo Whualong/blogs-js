@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 限制promise的并行数量
  *@author: codeWen666
@@ -50,3 +51,5 @@ addTask(400, '3')
 addTask(200, '4')
 
 // 输出结果 2 3 1 4
+
+```

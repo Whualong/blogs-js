@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 节流函数 持续触发 在某个时间内只执行一次
  *@author: codeWen666
@@ -14,3 +15,5 @@ function throttle (fn, delay) {
     }
   }
 }
+
+```

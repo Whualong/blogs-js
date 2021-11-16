@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 数组扁平化的实现方法
  *@author: codeWen666
@@ -35,3 +36,5 @@ function myflat4 (arr) {
 module.exports = {
   myflat
 }
+
+```

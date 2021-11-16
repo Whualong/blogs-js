@@ -1,3 +1,4 @@
+```js
 /*
  *@description: prmise包装一个jsonp
  *@author: codeWen666
@@ -28,3 +29,5 @@ function jsonp (url, params, callbackName) {
 module.exports = {
   jsonp
 }
+
+```

@@ -1,3 +1,4 @@
+```js
 /*
  *@description: js中??、?.的使用方法
  *@author: codeWen666
@@ -48,3 +49,5 @@ const showSplashScreen = response.settings.showSplashScreen ?? true;
   
 */
 const animationDuration = response.settings?.animationDuration ?? 300;
+
+```

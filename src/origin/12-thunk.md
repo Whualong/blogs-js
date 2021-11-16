@@ -1,3 +1,4 @@
+```js
 const fs = require('fs')
 // const thunkFile = Thunk(fs.readFile)
 
@@ -33,3 +34,5 @@ co(function * () {
 }).catch((e) => {
   console.log('err->', e)
 })
+
+```

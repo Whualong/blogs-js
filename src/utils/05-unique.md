@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 数组去重
  *@author: codeWen666
@@ -27,3 +28,5 @@ function unique3 (arr) {
 module.exports = {
   unique
 }
+
+```

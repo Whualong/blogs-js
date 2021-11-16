@@ -1,3 +1,4 @@
+```js
 /*
  *@description:  js中数据类型判断
  *@author: codeWen666
@@ -39,3 +40,5 @@ console.log(checkType(sync))
 // function
 // generatorfunction
 // asyncfunction
+
+```

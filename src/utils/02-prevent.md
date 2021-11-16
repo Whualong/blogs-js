@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 阻止页面刷新和关闭
   调用下面方法后 当点击关闭或刷新按钮 操作当前网页时弹窗拦截 是否离开此页面
@@ -12,3 +13,5 @@ function preventUnload () {
     e.returnValue = '您还没有保存'
   })
 }
+
+```

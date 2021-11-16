@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 实现 call
  *@author: codeWen666
@@ -15,3 +16,5 @@ Function.prototype.mycall = function () {
   ctx.fn(...args)
   delete ctx.fn
 }
+
+```

@@ -1,3 +1,4 @@
+```js
 /*
  *@description: bind实现 （考虑构造函数调用bind的情况）
  *@author: codeWen666
@@ -19,3 +20,5 @@ Function.prototype.mybind = function () {
   myBind.prototype = new Noop()
   return myBind
 }
+
+```

@@ -1,3 +1,14 @@
+### promise的实现
+
+- then
+- catch
+- finally
+- Promise.resolve
+- Promise.reject
+- Promise.all
+- Promise.allSettled
+
+```js
 /*
  *@description: implement promise && pass promise A+ 872 tests
   加入异步微任务队列的实现使用的 queueMicrotask 底层API
@@ -46,7 +57,7 @@ class Promise {
     onResolve = typeof onResolve === 'function' ? onResolve : (val) => val
     onReject = typeof onReject === 'function' ? onReject : (err) => { throw err }
     const newP = new Promise((resolve, reject) => {
-      if (this.status === FUFILLED) {
+      const queueResolveTask = () => {
         queueMicrotask(() => {
           try {
             const x = onResolve(this.value)
@@ -56,7 +67,7 @@ class Promise {
           }
         })
       }
-      if (this.status === REJECTED) {
+      const queueRejectTask = () => {
         queueMicrotask(() => {
           try {
             const x = onReject(this.reason)
@@ -66,28 +77,16 @@ class Promise {
           }
         })
       }
-      if (this.status === PENDIGN) {
-        this.resolveCallback.push(() => {
-          queueMicrotask(() => {
-            try {
-              const x = onResolve(this.value)
-              resolvePromise(newP, x, resolve, reject)
-            } catch (e) {
-              reject(e)
-            }
-          })
-        })
 
-        this.rejectCallback.push(() => {
-          queueMicrotask(() => {
-            try {
-              const x = onReject(this.reason)
-              resolvePromise(newP, x, resolve, reject)
-            } catch (e) {
-              reject(e)
-            }
-          })
-        })
+      if (this.status === FUFILLED) {
+        queueResolveTask()
+      }
+      if (this.status === REJECTED) {
+        queueRejectTask()
+      }
+      if (this.status === PENDIGN) {
+        this.resolveCallback.push(queueResolveTask)
+        this.rejectCallback.push(queueRejectTask)
       }
     })
     return newP
@@ -95,6 +94,10 @@ class Promise {
 
   catch (fn) {
     return this.then(null, fn)
+  }
+
+  finally (fn) {
+    return this.then(fn, fn)
   }
 }
 Promise.resolve = (val) => {
@@ -163,7 +166,7 @@ Promise.allSettled = (promises) => {
         if (i === promises.length) {
           resolve(result)
         }
-      },(err)=>{
+      }, (err) => {
         result[index] = err
         i++
         if (i === promises.length) {
@@ -214,3 +217,5 @@ Promise.defer = Promise.deferred = function () {
   return dfd
 }
 module.exports = Promise
+```
+

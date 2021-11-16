@@ -1,3 +1,4 @@
+```css
 /*
     移动端H5适配iphoneX底部栏，css快速解决方案
 
@@ -23,3 +24,5 @@
       padding-bottom: env(safe-area-inset-bottom);
   }
 }
+```
+

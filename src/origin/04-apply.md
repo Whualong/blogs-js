@@ -1,3 +1,4 @@
+```
 /*
  *@description:实现apply
  *@author: codeWen666
@@ -15,3 +16,5 @@ Function.prototype.myapply = function () {
   ctx.fn(args)
   delete ctx.fn
 }
+
+```

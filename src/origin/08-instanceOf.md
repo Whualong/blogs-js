@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 实现一个instanceOf
  *@author: codeWen666
@@ -13,3 +14,5 @@ function _instanceOf (left, right) {
     proto = Object.getPrototypeOf(left)
   }
 }
+
+```

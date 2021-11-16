@@ -1,3 +1,15 @@
+### Sequence
+
+- 含义
+- 代码
+
+#### 含义
+
+一个串行执行的 promsise 链条
+
+#### 代码
+
+```js
 /*
  *@description:
   实现一个串行执行promise的函数
@@ -44,3 +56,6 @@ last.then((val) => {
 // order--> 3
 // order--> 4
 // last-> [ 1, 2, 3, 4 ]
+
+```
+

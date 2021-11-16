@@ -1,3 +1,4 @@
+```js
 /*
  *@description: Object.create()的实现原理
  *@author: codeWen666
@@ -10,3 +11,5 @@ Object.create = function (obj) {
   F.prototype = obj
   return new F()
 }
+
+```

@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 快速排序算法
  *@author: codeWen666
@@ -28,3 +29,5 @@ function quickSort (arr) {
 
 const arr = [12, 34, 3, 6, 1, 45, 990, 120, 34]
 console.log(quickSort(arr))
+
+```

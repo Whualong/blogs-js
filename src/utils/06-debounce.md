@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 防抖函数  解决持续触发问题
  *@author: codeWen666
@@ -17,3 +18,5 @@ function debounce (fn, delay) {
     }, delay)
   }
 }
+
+```

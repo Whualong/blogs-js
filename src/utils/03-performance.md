@@ -1,3 +1,4 @@
+```js
 /*
  *@description: 通过 performance API 获取页面性能表现
  *@author: codeWen666
@@ -63,3 +64,5 @@ const getResources = () => {
 
   return resource
 }
+
+```
