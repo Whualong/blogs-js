@@ -1,4 +1,12 @@
+### requestAnimationFrame
+
+- 匀速滚动不掉帧
+- 实现
+
+#### 实现
+
 ```html
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -63,4 +71,6 @@
     
   </body>
 </html>
+
 ```
+

@@ -1,4 +1,16 @@
+### 页面加载各个阶段耗时
+
+- 原理
+- 实现
+
+#### 原理
+
+perfomance 的 timing 属性挂载的属性
+
+#### 实现
+
 ```js
+
 /*
  *@description: 通过 performance API 获取页面性能表现
  *@author: codeWen666
@@ -66,3 +78,4 @@ const getResources = () => {
 }
 
 ```
+

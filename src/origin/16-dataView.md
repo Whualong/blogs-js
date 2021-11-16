@@ -76,6 +76,7 @@ console.log(view2.getInt8(0)); // 42
 检测字节序：
 
 ```js
+
 var littleEndian = (function() {
   var buffer = new ArrayBuffer(2);
   new DataView(buffer).setInt16(0, 256, true /* 设置值时，使用小端字节序 */);
@@ -83,6 +84,7 @@ var littleEndian = (function() {
   return new Int16Array(buffer)[0] === 256;
 })();
 console.log(littleEndian); // 返回 true 或 false
+
 ```
 
 一般情况下都为小端字节序

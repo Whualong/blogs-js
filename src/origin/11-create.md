@@ -1,4 +1,16 @@
+### Object.create
+
+- 介绍
+- 实现
+
+#### 介绍
+
+以参数为原型，创建一个对象。
+
+#### 实现
+
 ```js
+
 /*
  *@description: Object.create()的实现原理
  *@author: codeWen666
@@ -13,3 +25,4 @@ Object.create = function (obj) {
 }
 
 ```
+

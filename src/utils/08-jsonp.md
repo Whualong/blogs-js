@@ -1,4 +1,11 @@
+### promise包装jsonp
+
+- 实现
+
+#### 实现
+
 ```js
+
 /*
  *@description: prmise包装一个jsonp
  *@author: codeWen666
@@ -31,3 +38,4 @@ module.exports = {
 }
 
 ```
+

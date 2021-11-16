@@ -1,4 +1,18 @@
+#### promise实现一个红绿灯
+
+- 分析
+- 实现
+
+#### 分析
+
+promsie的链式执行可以实现顺序控制。
+
+使用递归可以跑起来。
+
+#### 实现
+
 ```html
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -22,8 +36,9 @@
          *@date: 2021-11-02 00:46:33
          *@version: V1.0.5
         */
-
+          
         let dom=document.querySelector('.light1');
+        // promise包装
         function createLight(color,delay){
           return new Promise((resolve)=>{
             setTimeout(()=>{
@@ -31,6 +46,7 @@
             },delay)
           })
         }
+        // 实现
         function transLight(){
           return createLight('green',3000).then((data)=>{
              dom.style.background=data;
@@ -43,27 +59,34 @@
             transLight();
           })
         }
+          
         transLight();
 
         // async　版本的实现
-        
-        let dom2=document.querySelector('.light2')
-        function lightNext(color,delay){
-          return new Promise((resolve)=>{
-            setTimeout(()=>{
-              dom2.style.background=color;
-              resolve();
-            },delay)
+       
+       let dom2=document.querySelector('.light2')
+       
+       function lightNext(color,delay){
+       	  return new Promise((resolve)=>{
+               setTimeout(()=>{
+                 dom2.style.background=color;
+                  resolve();
+                },delay)
           })
-        }
-        async function lightTest(){
-            await lightNext('green',3000);
-            await lightNext('yellow',3000);
-            await lightNext('red',3000);
-            lightTest();
-        }
-        lightTest()
+       }
+       async function lightTest(){
+          await lightNext('green',3000);
+          await lightNext('yellow',3000);
+          await lightNext('red',3000);
+          lightTest();
+       }
+       lightTest()
+          
       </script>
   </body>
 </html>
+
 ```
+
+ 
+

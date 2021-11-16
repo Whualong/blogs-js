@@ -1,4 +1,18 @@
+### js类型检查
+
+- 实现方式
+- 代码
+
+#### 实现方式
+
+Object.prototype.toString
+
+正则表达式过滤
+
+#### 代码
+
 ```js
+
 /*
  *@description:  js中数据类型判断
  *@author: codeWen666
@@ -42,3 +56,4 @@ console.log(checkType(sync))
 // asyncfunction
 
 ```
+

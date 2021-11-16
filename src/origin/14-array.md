@@ -1,6 +1,14 @@
  ### js中各个迭代方法的实现
-+ forEach 的实现
-```
+
+- forEach的实现
+- map的实现
+- filter的实现
+- reduce的实现
+
+#### forEach 的实现
+
+```js
+
 Array.prototype.myForEach = function (cb,thisArg){
   if( typeof cb != 'function' ){
     throw new Error('undefined is not a function');
@@ -13,9 +21,12 @@ Array.prototype.myForEach = function (cb,thisArg){
     cb.call(thisArg,arr[i],i,arr);
   }
 }
+
 ```
-+ map 的实现 
-```
+#### map 的实现 
+
+```js
+
 Array.prototype.myMap = function (cb,thisArg){
   if( typeof cb != 'function' ){
     throw new Error('undefined is not a function');
@@ -30,9 +41,12 @@ Array.prototype.myMap = function (cb,thisArg){
   }
   return result;
 }
+
 ```
-+ filter 的实现
-```
+#### filter 的实现
+
+```js
+
 Array.prototype.myFilter = function (cb,thisArg){
   if( typeof cb != 'function' ){
     throw new Error('undefined is not a function');
@@ -48,10 +62,12 @@ Array.prototype.myFilter = function (cb,thisArg){
   }
   return result;
 }
-```
-+ reduce 的实现
 
 ```
+#### reduce 的实现
+
+```js
+
 Array.prototype.myReduce = function (cb,initVal){
   if( typeof cb != 'function' ){
     throw new Error('undefined is not a function');
@@ -76,4 +92,5 @@ Array.prototype.myReduce = function (cb,initVal){
   }
   return innerInit;
 }
+
 ```

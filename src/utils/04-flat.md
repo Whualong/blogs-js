@@ -1,4 +1,11 @@
+### 数组扁平化
+
+- 实现
+
+#### 实现
+
 ```js
+
 /*
  *@description: 数组扁平化的实现方法
  *@author: codeWen666
@@ -38,3 +45,4 @@ module.exports = {
 }
 
 ```
+

@@ -1,4 +1,21 @@
+### bind
+
+- 含义
+- 注意
+- 实现
+
+#### 含义
+
+修改函数的上下文，且返回一个新函数。还可以先传入一部分参数
+
+#### 注意
+
+考虑构造函数调用的情况。
+
+#### 实现
+
 ```js
+
 /*
  *@description: bind实现 （考虑构造函数调用bind的情况）
  *@author: codeWen666
@@ -6,7 +23,6 @@
  *@version: V1.0.5
 */
 
-// eslint-disable-next-line no-extend-native
 Function.prototype.mybind = function () {
   const fn = this
   function Noop () {}
@@ -22,3 +38,4 @@ Function.prototype.mybind = function () {
 }
 
 ```
+

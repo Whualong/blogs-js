@@ -16,7 +16,8 @@ window.requestAnimationFrame() 告诉浏览器——你希望执行一个动画�
 
 #### 一个简单的滚动示例
 
-```
+```js
+
 function test(){
   let dom = document.querySelector('.dom');
   let h = dom.clientHeight;
@@ -32,6 +33,7 @@ function toBottom(){
 }
 
 上述代码的作用是网页匀速滚动到底部
+
 ```
 
 #### 优点以及优化渲染
@@ -41,6 +43,7 @@ function toBottom(){
 处理十万条数据的渲染
 
 ```html
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -82,11 +85,13 @@ function toBottom(){
         </script>
     </body>
 </html>
+
 ```
 
 #### 兼容性写法
 
-```
+```js
+
 window.requestAnimFrame = (function(){
   return  window.requestAnimationFrame       ||
           window.webkitRequestAnimationFrame ||
@@ -127,4 +132,5 @@ window.requestAnimFrame = (function(){
 }());
 
 兼容性代码来自张鑫旭-鑫空间-鑫生活[https://www.zhangxinxu.com]
+
 ```

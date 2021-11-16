@@ -8,6 +8,7 @@
 #### 高级的实现方式
 
 ```javascript
+
 let compose = (...funcArgs) => (...args) => {
   for (let i = funcArgs.length - 1; i >= 0; i--) {
     args = i === funcArgs.length - 1 ? funcArgs[i](...args) : funcArgs[i](args);
@@ -16,5 +17,6 @@ let compose = (...funcArgs) => (...args) => {
 }
 
 let pipe = (...funcArgs) => compose(...funcArgs.reverse());
+
 ```
 

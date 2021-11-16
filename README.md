@@ -138,4 +138,4 @@ ___
 
 #### <p id='node'>node 重点</p>
 
-[01.<font color=plum>node中 process.nextTick、setImmediate分析</font>](https://github.com/codeWen666/blogs-js/tree/main/src/node/01-scoped.md)
+[01.<font color=plum>node中 process.nextTick、setImmediate分析</font>](https://github.com/codeWen666/blogs-js/tree/main/src/node/01-async.md)

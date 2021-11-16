@@ -1,10 +1,18 @@
+### js节流
+
+- 实现
+
+#### 实现
+
 ```js
+
 /*
  *@description: 节流函数 持续触发 在某个时间内只执行一次
  *@author: codeWen666
  *@date: 2021-10-23 22:45:47
  *@version: V1.0.5
 */
+
 function throttle (fn, delay) {
   let prev = +new Date()
   return function () {
@@ -17,3 +25,6 @@ function throttle (fn, delay) {
 }
 
 ```
+
+
+

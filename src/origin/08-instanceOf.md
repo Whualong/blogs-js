@@ -1,4 +1,16 @@
+### instanceOf
+
+- 含义
+- 实现
+
+#### 含义
+
+沿着原型链检测右边对象是否是左边对象的原型
+
+#### 实现
+
 ```js
+
 /*
  *@description: 实现一个instanceOf
  *@author: codeWen666
@@ -16,3 +28,4 @@ function _instanceOf (left, right) {
 }
 
 ```
+

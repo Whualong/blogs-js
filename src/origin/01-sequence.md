@@ -1,22 +1,17 @@
-### Sequence
+### sequence
 
 - 含义
-- 代码
+- 实现
 
 #### 含义
 
-一个串行执行的 promsise 链条
+一个串行执行的 promsise 链条。
 
 #### 代码
 
 ```js
-/*
- *@description:
-  实现一个串行执行promise的函数
- *@author: codeWen666
- *@date: 2021-10-23 13:31:56
- *@version: V1.0.5
-*/
+
+// 实现方式一
 function sequence (promises) {
   const result = []
   let p = Promise.resolve()
@@ -33,6 +28,19 @@ function sequence (promises) {
   return p.then(() => result)
 }
 
+// 实现方式二
+function sequence (promises) {
+  const result = []
+  return promises.reduce((p1,p2) => {
+    return p1.then(()=>{
+        return p2().then((data)=>{
+            result.push(data)
+        })
+	})
+  },Promise.resolve()).then(() => result)
+}
+
+// 构造promise实例
 function createPromise (time, order) {
   return function () {
     return new Promise((resolve, reject) => {
@@ -45,9 +53,8 @@ function createPromise (time, order) {
 }
 
 const arr = [createPromise(1000, 1), createPromise(1000, 2), createPromise(1000, 3), createPromise(1000, 4)]
-const last = sequence(arr)
-last.then((val) => {
-  console.log('last->', val)
+sequence(arr).then((val)=>{
+   console.log('last->', val)
 })
 
 // 输出结果 每秒依次输出

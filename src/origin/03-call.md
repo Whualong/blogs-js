@@ -1,4 +1,16 @@
+### call的实现
+
+- 含义
+- 实现
+
+#### 含义
+
+修改函数中this的指向。参数 1 上下文对象 ，剩余参数为调用传参
+
+#### 实现
+
 ```js
+
 /*
  *@description: 实现 call
  *@author: codeWen666
@@ -6,7 +18,6 @@
  *@version: V1.0.5
 */
 
-// eslint-disable-next-line no-extend-native
 Function.prototype.mycall = function () {
   const fn = this
   const args = Array.from(arguments)
@@ -18,3 +29,6 @@ Function.prototype.mycall = function () {
 }
 
 ```
+
+
+

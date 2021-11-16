@@ -12,6 +12,7 @@
 #### 偏函数的示例
 
 ```javascript
+
 // 常规写法
 function add(a,b){
     return a+b;
@@ -30,11 +31,13 @@ pAdd(2) // 3
 pAdd(3) // 4
 pAdd(4) // 5
 // 可以看出，当我们需要固定传入的参数很多的情况下，使用偏函数处理非常方便。下面是通用的偏函数。
+
 ```
 
 #### 偏函数的通用写法
 
 ```javascript
+
 // 通用写法1
 function pFun(...args){
     if(args.length<2){
@@ -61,6 +64,7 @@ function pFun(...args){
     let params = args.slice(1);
     return callback.bind(null,...params);
 }
+
 ```
 
 #### 应用场景

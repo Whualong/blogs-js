@@ -6,9 +6,11 @@
 - Promise.resolve
 - Promise.reject
 - Promise.all
+- Promise.race
 - Promise.allSettled
 
 ```js
+
 /*
  *@description: implement promise && pass promise A+ 872 tests
   加入异步微任务队列的实现使用的 queueMicrotask 底层API
@@ -207,7 +209,7 @@ function resolvePromise (p, x, resolve, reject) {
     resolve(x)
   }
 }
-
+// A +  
 Promise.defer = Promise.deferred = function () {
   const dfd = {}
   dfd.promise = new Promise((resolve, reject) => {
