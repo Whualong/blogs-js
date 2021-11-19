@@ -6,14 +6,14 @@
 |  名称 | 条数  |
 | :--------------------: | :--: |
 | [css技巧]( #css)    |  1   |
-| [js重点](#js1)     |  20  |
+| [js重点](#js1)     |  21  |
 | [js基础算法](#js2)   |  9   |
 | [js常用工具](#js3)   |  8   |
 | [js常用设计模式](#js4) |  4   |
 | [js性能优化](#js5)   |  1   |
 | [vue基础原理](#vue)   |  4   |
 | [node重点](#node)    |  1   |
-| 总计          |  48  |
+| 总计          |  49  |
 
 #### <p id='css'>css 技巧</p>
 
@@ -63,6 +63,7 @@ ___
 
 [20.<font color=plum>组合函数compose和pipe的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/20-compose.md)
 
+[21.<font color=plum>WeakMap的实现和用法</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/21-weakMap.md)
 ___
 
 #### <p id='js2'>js 基础算法</p>
