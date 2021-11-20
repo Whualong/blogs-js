@@ -21,6 +21,8 @@
 
 [02.<font color=plum>css权重计算规则</font>](https://github.com/codeWen666/blogs-js/tree/main/src/css/02-power.md)
 
+[03.<font color=plum>水平垂直居中</font>](https://github.com/codeWen666/blogs-js/tree/main/src/css/03-center.md)
+
 ___
 
 #### <p id='js1'>js 重点</p>
