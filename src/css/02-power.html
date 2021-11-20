@@ -2,17 +2,37 @@
 <html>
   <head>
     <style>
-      div.test{
-        color:red !important;
-      }
-      #nima.test1{
-        color:green !important;
-      }
-    </style>
+        div.test{
+          position: fixed;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.5);
+          text-align: center;
+          font-size: 0;
+          
+        }
+        .test::after {
+            content: '123';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+          }
+        .inner{
+          display: inline-block;
+          width: 500px;
+          height: 400px;
+          background-color: pink;
+          vertical-align: middle;
+        }
+      </style>
   </head>
   <body>
-    <div id='nima' class='test test1'>
-        的酸辣粉
+    <div  class='test test1'>
+       <div class='inner'>
+
+       </div>
     </div>
   </body>
 </html>
