@@ -5,7 +5,7 @@
 
 |  名称 | 条数  |
 | :--------------------: | :--: |
-| [css技巧]( #css)    |  1   |
+| [css基础]( #css)  |  2  |
 | [js重点](#js1)     |  21  |
 | [js基础算法](#js2)   |  9   |
 | [js常用工具](#js3)   |  8   |
@@ -13,11 +13,13 @@
 | [js性能优化](#js5)   |  1   |
 | [vue基础原理](#vue)   |  4   |
 | [node重点](#node)    |  1   |
-| 总计          |  49  |
+| 总计          |  50  |
 
-#### <p id='css'>css 技巧</p>
+#### <p id='css'>css 基础</p>
 
 [01.<font color=plum>保持与ios底部白条的安全距离</font>](https://github.com/codeWen666/blogs-js/tree/main/src/css/01-apple.md)
+
+[02.<font color=plum>css权重计算规则</font>](https://github.com/codeWen666/blogs-js/tree/main/src/css/02-power.md)
 
 ___
 
