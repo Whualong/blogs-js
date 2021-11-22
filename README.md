@@ -127,6 +127,8 @@ ___
 
 [01.<font color=plum>使用迭代器时间分片优化渲染</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
 
+[01.<font color=plum>使用分片技术优化大文件上传</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
+
 ___
 
 #### <p id='vue'>vue 基础原理</p>
