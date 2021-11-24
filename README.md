@@ -69,7 +69,7 @@ ___
 
 [21.<font color=plum>WeakMap的实现和用法</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/21-weakMap.md)
 
-[22.<font color=plum>剪贴板的相关操作</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/21-weakMap.md)
+[22.<font color=plum>剪贴板的相关操作</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/22-clipBoard.md)
 ___
 
 #### <p id='js2'>js 基础算法</p>
