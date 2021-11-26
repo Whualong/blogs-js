@@ -5,147 +5,155 @@
 
 |  名称 | 条数  |
 | :--------------------: | :--: |
-| [css基础]( #css)  |  2  |
-| [js重点](#js1)     |  21  |
+| [css基础]( #css)  |  3  |
+| [js重点](#js1)     |  23  |
 | [js基础算法](#js2)   |  9   |
-| [js常用工具](#js3)   |  8   |
+| [js常用工具](#js3)   |  9  |
 | [js常用设计模式](#js4) |  4   |
-| [js性能优化](#js5)   |  1   |
+| [js性能优化](#js5)   |  2  |
 | [vue基础原理](#vue)   |  4   |
 | [node重点](#node)    |  1   |
-| 总计          |  50  |
+| 总计          |  55  |
 
 #### <p id='css'>css 基础</p>
 
-[01.<font color=plum>保持与ios底部白条的安全距离</font>](https://github.com/codeWen666/blogs-js/tree/main/src/css/01-apple.md)
+[01.保持与ios底部白条的安全距离](https://github.com/codeWen666/blogs-js/tree/main/src/css/01-apple.md)
 
-[02.<font color=plum>css权重计算规则</font>](https://github.com/codeWen666/blogs-js/tree/main/src/css/02-power.md)
+[02.css权重计算规则](https://github.com/codeWen666/blogs-js/tree/main/src/css/02-power.md)
 
-[03.<font color=plum>水平垂直居中</font>](https://github.com/codeWen666/blogs-js/tree/main/src/css/03-center.md)
+[03.水平垂直居中](https://github.com/codeWen666/blogs-js/tree/main/src/css/03-center.md)
 
 ___
 
 #### <p id='js1'>js 重点</p>
 
-[01.<font color=plum>串行执行promise</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/01-sequence.md)
+[01.串行执行promise](https://github.com/codeWen666/blogs-js/tree/main/src/origin/01-sequence.md)
 
-[02.<font color=plum>实现一个完整的promise 通过A+测试</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/02-promise.md)
+[02.实现一个完整的promise 通过A+测试](https://github.com/codeWen666/blogs-js/tree/main/src/origin/02-promise.md)
 
-[03.<font color=plum>call的实现原理</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/03-call.md)
+[03.call的实现原理](https://github.com/codeWen666/blogs-js/tree/main/src/origin/03-call.md)
 
-[04.<font color=plum>apply的实现原理</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/04-apply.md)
+[04.apply的实现原理](https://github.com/codeWen666/blogs-js/tree/main/src/origin/04-apply.md)
 
-[05.<font color=plum>bind的实现原理（考虑构造函数调用的情况）</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/05-bind.md)
+[05.bind的实现原理（考虑构造函数调用的情况）](https://github.com/codeWen666/blogs-js/tree/main/src/origin/05-bind.md)
 
-[06.<font color=plum>new操作符的实现过程</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/06-new.md)
+[06.new操作符的实现过程](https://github.com/codeWen666/blogs-js/tree/main/src/origin/06-new.md)
 
-[07.<font color=plum>调度promise并发数</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/07-dispatch.md)
+[07.调度promise并发数](https://github.com/codeWen666/blogs-js/tree/main/src/origin/07-dispatch.md)
 
-[08.<font color=plum>instanceOf 实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/08-instanceOf.md)
+[08.instanceOf 实现](https://github.com/codeWen666/blogs-js/tree/main/src/origin/08-instanceOf.md)
 
-[09.<font color=plum>promise/async 实现交通信号灯</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/09-light.md)
+[09.promise/async 实现交通信号灯](https://github.com/codeWen666/blogs-js/tree/main/src/origin/09-light.md)
 
-[10.<font color=plum>var、let、const、以及函数声明的理解</font>](https://blog.csdn.net/weixin_43601527/article/details/121154133?spm=1001.2014.3001.5501)
+[10.var、let、const、以及函数声明的理解](https://blog.csdn.net/weixin_43601527/article/details/121154133?spm=1001.2014.3001.5501)
 
-[11.<font color=plum>js中?.和??运算符的用法</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/10-operator.md)
+[11.js中?.和??运算符的用法](https://github.com/codeWen666/blogs-js/tree/main/src/origin/10-operator.md)
 
-[12.<font color=plum>js中Object.create的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/11-create.md)
+[12.js中Object.create的实现](https://github.com/codeWen666/blogs-js/tree/main/src/origin/11-create.md)
 
-[13.<font color=plum>js中隐式转换的情况分析</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/13-false.md)
+[13.js中隐式转换的情况分析](https://github.com/codeWen666/blogs-js/tree/main/src/origin/13-false.md)
 
-[14.<font color=plum>js中数组遍历方法的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/14-array.md)
+[14.js中数组遍历方法的实现](https://github.com/codeWen666/blogs-js/tree/main/src/origin/14-array.md)
 
-[15.<font color=plum>js中使用尾递归降低空间复杂度</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
+[15.js中使用尾递归降低空间复杂度](https://github.com/codeWen666/blogs-js/tree/main/src/origin/15-recursion.md)
 
-[16.<font color=plum>前端开发者陌生的ArrayBuffer、视图</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/16-dataView.md)
+[16.前端开发者陌生的ArrayBuffer、视图](https://github.com/codeWen666/blogs-js/tree/main/src/origin/16-dataView.md)
 
-[17.<font color=plum>你应该了解的requestAnimationFrame</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/17-raf.md)
+[17.你应该了解的requestAnimationFrame](https://github.com/codeWen666/blogs-js/tree/main/src/origin/17-raf.md)
 
-[18.<font color=plum>偏函数</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/18-pianFun.md)
+[18.偏函数](https://github.com/codeWen666/blogs-js/tree/main/src/origin/18-pianFun.md)
 
-[19.<font color=plum>函数柯里化（lodash库）</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/19-curry.md)
+[19.函数柯里化（lodash库）](https://github.com/codeWen666/blogs-js/tree/main/src/origin/19-curry.md)
 
-[20.<font color=plum>组合函数compose和pipe的实现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/20-compose.md)
+[20.组合函数compose和pipe的实现](https://github.com/codeWen666/blogs-js/tree/main/src/origin/20-compose.md)
 
-[21.<font color=plum>WeakMap的实现和用法</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/21-weakMap.md)
+[21.WeakMap的实现和用法](https://github.com/codeWen666/blogs-js/tree/main/src/origin/21-weakMap.md)
 
-[22.<font color=plum>剪贴板的相关操作</font>](https://github.com/codeWen666/blogs-js/tree/main/src/origin/22-clipBoard.md)
+[22.剪贴板的相关操作](https://github.com/codeWen666/blogs-js/tree/main/src/origin/22-clipBoard.md)
+
+[23.浏览器的用户代理使用场景](https://github.com/codeWen666/blogs-js/tree/main/src/origin/23-userAgent.md)
+
 ___
 
 #### <p id='js2'>js 基础算法</p>
 
-[01.<font color=plum>快速排序</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+[01.快速排序](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 
-[02.<font color=plum>判断回文字符串</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+[02.判断回文字符串](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 
-[03.<font color=plum>统计一个字符串出现最多的字母</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+[03.统计一个字符串出现最多的字母](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 
-[04.<font color=plum>不使用临时变量交换两个整数</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+[04.不使用临时变量交换两个整数](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 
-[05.<font color=plum>绘制斐波那契数列曲线</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+[05.绘制斐波那契数列曲线](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 
-[06.<font color=plum>找出正数数组的最大差值</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+[06.找出正数数组的最大差值](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 
-[07.<font color=plum>随机生成指定长度的字符串</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+[07.随机生成指定长度的字符串](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 
-[08.<font color=plum>实现类似getElementsByClassName的功能</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+[08.实现类似getElementsByClassName的功能](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 
-[09.<font color=plum>实现一个二叉树</font>](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+[09.实现一个二叉树](https://github.com/codeWen666/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 ___
 
 #### <p id='js3'>js 常用工具</p>
 
-[01.<font color=plum>检查数据类型</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/01-type.md)
+[01.检查数据类型](https://github.com/codeWen666/blogs-js/tree/main/src/utils/01-type.md)
 
-[02.<font color=plum>阻止手动刷新或关闭页面</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/02-prevent.md)
+[02.阻止手动刷新或关闭页面](https://github.com/codeWen666/blogs-js/tree/main/src/utils/02-prevent.md)
 
-[03.<font color=plum>页面加载过程中性能表现</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/03-performance.md)
+[03.页面加载过程中性能表现](https://github.com/codeWen666/blogs-js/tree/main/src/utils/03-performance.md)
 
-[04.<font color=plum>数组扁平化</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/04-flat.md)
+[04.数组扁平化](https://github.com/codeWen666/blogs-js/tree/main/src/utils/04-flat.md)
 
-[05.<font color=plum>数组去重</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/05-unique.md)
+[05.数组去重](https://github.com/codeWen666/blogs-js/tree/main/src/utils/05-unique.md)
 
-[06.<font color=plum>去抖动</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/06-debounce.md)
+[06.去抖动](https://github.com/codeWen666/blogs-js/tree/main/src/utils/06-debounce.md)
 
-[07.<font color=plum>节流</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/07-throttle.md)
+[07.节流](https://github.com/codeWen666/blogs-js/tree/main/src/utils/07-throttle.md)
 
-[08.<font color=plum>使用promise包装jsonp</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/08-jsonp.md)
+[08.使用promise包装jsonp](https://github.com/codeWen666/blogs-js/tree/main/src/utils/08-jsonp.md)
 
-[09.<font color=plum>本地node启动https的服务</font>](https://github.com/codeWen666/blogs-js/tree/main/src/utils/08-jsonp.md)
+[09.获取屏幕帧率](https://github.com/codeWen666/blogs-js/tree/main/src/utils/09-fps.md)
+
+[10.获取图片的base64编码](https://github.com/codeWen666/blogs-js/tree/main/src/utils/10-base64.md)
+
+[11.node启动https服务](https://github.com/codeWen666/blogs-js/tree/main/src/utils/10-base64.md)
+
 ___
 
 #### <p id='js4'>js 常用的设计模式</p>
 
-[01.<font color=plum>单例模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/design/01-singleton.md)
+[01.单例模式](https://github.com/codeWen666/blogs-js/tree/main/src/design/01-singleton.md)
 
-[02.<font color=plum>观察者模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
+[02.观察者模式](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
 
-[03.<font color=plum>发布订阅模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
+[03.发布订阅模式](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
 
-[04.<font color=plum>代理模式</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
+[04.代理模式](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
 
 ___
 
 #### <p id='js5'>js 性能优化</p>
 
-[01.<font color=plum>使用迭代器时间分片优化渲染</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
+[01.使用迭代器时间分片优化渲染](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
 
-[01.<font color=plum>使用分片技术优化大文件上传</font>](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
+[02.使用分片技术优化大文件上传](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
 
 ___
 
 #### <p id='vue'>vue 基础原理</p>
 
-[01.<font color=plum>scoped的原理</font>](https://github.com/codeWen666/blogs-js/tree/main/src/vue/01-scoped.md)
+[01.scoped的原理](https://github.com/codeWen666/blogs-js/tree/main/src/vue/01-scoped.md)
 
-[02.<font color=plum>vue中绑定key值的分析</font>](https://blog.csdn.net/weixin_43601527/article/details/121246362)
+[02.vue中绑定key值的分析](https://blog.csdn.net/weixin_43601527/article/details/121246362)
 
-[03.<font color=plum>vuex的简易实现</font>](https://blog.csdn.net/weixin_43601527/article/details/121246362)
+[03.vuex的简易实现](https://blog.csdn.net/weixin_43601527/article/details/121246362)
 
-[04.<font color=plum>vue-router的原理分析</font>](https://blog.csdn.net/weixin_43601527/article/details/121246362)
+[04.vue-router的原理分析](https://blog.csdn.net/weixin_43601527/article/details/121246362)
 
 ___
 
 #### <p id='node'>node 重点</p>
 
-[01.<font color=plum>node中 process.nextTick、setImmediate分析</font>](https://github.com/codeWen666/blogs-js/tree/main/src/node/01-async.md)
+[01.node中 process.nextTick、setImmediate分析](https://github.com/codeWen666/blogs-js/tree/main/src/node/01-async.md)

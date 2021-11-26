@@ -24,6 +24,7 @@ padding-bottom: env(safe-area-inset-bottom);//兼容 IOS>11.2
 #### 用法
 
 ```html
+
 <head>
     <style>
         @supports (padding-bottom:env(safe-area-inset-bottom)) or (padding-bottom:constant(safe-area-inset-bottom)){

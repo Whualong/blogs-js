@@ -10,6 +10,7 @@
 #### 写法
 
 ```js
+
 var Singleton = function(name) {
     this.instance = null;
     // 实例的属性

@@ -1,4 +1,11 @@
+### js快速排序算法
+
+- 递归实现
+
+#### 递归实现
+
 ```js
+
 /*
  *@description: 快速排序算法
  *@author: codeWen666
@@ -31,3 +38,4 @@ const arr = [12, 34, 3, 6, 1, 45, 990, 120, 34]
 console.log(quickSort(arr))
 
 ```
+
