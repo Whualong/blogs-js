@@ -73,6 +73,8 @@ ___
 
 [23.浏览器的用户代理使用场景](https://github.com/codeWen666/blogs-js/tree/main/src/origin/23-userAgent.md)
 
+[24.实现一个方法，传入一个参数不使用循环生成一个从0到参数的数组](https://github.com/codeWen666/blogs-js/tree/main/src/utils/26-quickArray.md)
+
 ___
 
 #### <p id='js2'>js 基础算法</p>
