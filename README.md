@@ -5,15 +5,15 @@
 
 |  名称 | 条数  |
 | :--------------------: | :--: |
-| [css基础]( #css)  |  3  |
+| [css基础]( #css)  |  4  |
 | [js重点](#js1)     |  24  |
 | [js基础算法](#js2)   |  9   |
-| [js常用工具](#js3)   |  12  |
+| [js常用工具](#js3)   |  13  |
 | [js常用设计模式](#js4) |  4   |
 | [js性能优化](#js5)   |  2  |
 | [vue基础原理](#vue)   |  4   |
 | [node重点](#node)    |  1   |
-| 总计          |  59  |
+| 总计          |  61  |
 
 #### <p id='css'>css 基础</p>
 
@@ -22,6 +22,8 @@
 [02.css权重计算规则](https://github.com/codeWen666/blogs-js/tree/main/src/css/02-power.md)
 
 [03.水平垂直居中](https://github.com/codeWen666/blogs-js/tree/main/src/css/03-center.md)
+
+[04.css实现页面滚动，顶部显示滚动进度](https://github.com/codeWen666/blogs-js/tree/main/src/css/04-progress.md)
 
 ___
 
