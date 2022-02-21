@@ -138,7 +138,7 @@ ___
 
 [02.观察者模式](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
 
-[03.发布订阅模式](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
+[03.发布订阅模式](https://github.com/codeWen666/EventEmitter)
 
 [04.代理模式](https://github.com/codeWen666/blogs-js/tree/main/src/performence/01-divideTime.md)
 
