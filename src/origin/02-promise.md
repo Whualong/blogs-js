@@ -163,13 +163,13 @@ Promise.allSettled = (promises) => {
   return new Promise((resolve, reject) => {
     promises.forEach((item, index) => {
       Promise.resolve(item).then((data) => {
-        result[index] = data
+        result[index] = { status: 'fulfilled', value: data }
         i++
         if (i === promises.length) {
           resolve(result)
         }
       }, (err) => {
-        result[index] = err
+        result[index] = { status: 'rejected', reason: err }
         i++
         if (i === promises.length) {
           resolve(result)

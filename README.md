@@ -8,12 +8,12 @@
 | [css基础]( #css)  |  4  |
 | [js重点](#js1)     |  24  |
 | [js基础算法](#js2)   |  9   |
-| [js常用工具](#js3)   |  13  |
+| [js常用工具](#js3)   |  14  |
 | [js常用设计模式](#js4) |  4   |
 | [js性能优化](#js5)   |  2  |
 | [vue基础原理](#vue)   |  4   |
 | [node重点](#node)    |  1   |
-| 总计          |  61  |
+| 总计          |  62  |
 
 #### <p id='css'>css 基础</p>
 
@@ -127,6 +127,8 @@ ___
 [12.>>>0什么意思？](https://github.com/codeWen666/blogs-js/tree/main/src/utils/12-toUnit32.md)
 
 [13.检测对象是否存在循环引用](https://github.com/codeWen666/blogs-js/tree/main/src/utils/13-cycleRefrence.md)
+
+[14.jsonp高级版本（ 增加错误处理和回调函数 ）](https://github.com/codeWen666/blogs-js/tree/main/src/utils/14-jsonp1.md)
 
 ___
 
