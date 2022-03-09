@@ -130,6 +130,8 @@ ___
 
 [14.jsonp高级版本（ 增加错误处理和回调函数 ）](https://github.com/Whualong/blogs-js/tree/main/src/utils/14-jsonp1.md)
 
+[15.深拷贝的实现 ](https://github.com/Whualong/blogs-js/tree/main/src/utils/15-deepCopy.md)
+
 ___
 
 #### <p id='js4'>js 常用的设计模式</p>
