@@ -177,3 +177,5 @@ ___
 
 [01.给分支写备注](https://github.com/Whualong/blogs-js/tree/main/src/git/01-desc.md)
 
+[02.git merge、git rebase、git merge --no-ff 区别](https://github.com/Whualong/blogs-js/tree/main/src/git/02-merge.md)
+
