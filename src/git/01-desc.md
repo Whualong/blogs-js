@@ -9,11 +9,11 @@
 
 我的备注信息为 升级济南医院sdk
 
-git config branch.test.description 升级济南医院sdk
+git config branch.jinan.description 升级济南医院sdk
 
 查看备注信息
 
-git config branch.test.description 
+git config branch.jinan.description 
 
 #### 用法：
 
