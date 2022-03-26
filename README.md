@@ -53,7 +53,7 @@ ___
 
 [12.js中Object.create的实现](https://github.com/Whualong/blogs-js/tree/main/src/origin/11-create.md)
 
-[13.js中隐式转换的情况分析](https://github.com/Whualong/blogs-js/tree/main/src/origin/13-false.md)
+[13.通过一道题分析js中隐式转换规则](https://github.com/Whualong/blogs-js/tree/main/src/origin/13-index.md)
 
 [14.js中数组遍历方法的实现](https://github.com/Whualong/blogs-js/tree/main/src/origin/14-array.md)
 
