@@ -13,7 +13,8 @@
 | [js性能优化](#js5)   |  2  |
 | [vue基础原理](#vue)   |  4   |
 | [node重点](#node)    |  1   |
-| 总计          |  63  |
+| [git工具](#git) |  1  |
+| 总计 | 64 |
 
 #### <p id='css'>css 基础</p>
 
@@ -169,3 +170,12 @@ ___
 #### <p id='node'>node 重点</p>
 
 [01.node中 process.nextTick、setImmediate分析](https://github.com/Whualong/blogs-js/tree/main/src/node/01-async.md)
+
+___
+
+#### <p id='git'>git工具</p>
+
+[01.给分支写备注](https://github.com/Whualong/blogs-js/tree/main/src/git/01-desc.md)
+
+[02.git merge、git rebase、git merge --no-ff 区别](https://github.com/Whualong/blogs-js/tree/main/src/git/02-merge.md)
+
