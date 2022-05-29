@@ -13,7 +13,7 @@
 | [js性能优化](#js5)   |  2  |
 | [vue基础原理](#vue)   |  4   |
 | [node重点](#node)    |  1   |
-| [git工具](#git) |  1  |
+| [git工具](#git) |  2  |
 | [typescript学习](#ts) | 1 |
 | 总计 | 65 |
 
@@ -55,7 +55,7 @@ ___
 
 [12.js中Object.create的实现](https://github.com/Whualong/blogs-js/tree/main/src/origin/11-create.md)
 
-[13.js中隐式转换的情况分析](https://github.com/Whualong/blogs-js/tree/main/src/origin/13-false.md)
+[13.通过一道题分析js中隐式转换规则](https://github.com/Whualong/blogs-js/tree/main/src/origin/13-index.md)
 
 [14.js中数组遍历方法的实现](https://github.com/Whualong/blogs-js/tree/main/src/origin/14-array.md)
 
@@ -178,7 +178,7 @@ ___
 
 [01.给分支写备注](https://github.com/Whualong/blogs-js/tree/main/src/git/01-desc.md)
 
-[02.git merge、git rebase、git merge --no-ff 区别](https://github.com/Whualong/blogs-js/tree/main/src/git/02-merge.md)
+[02.git merge、git rebase、git merge --no-ff 区别](https://github.com/Whualong/blogs-js/tree/main/src/git/02-index.md)
 
 ___
 

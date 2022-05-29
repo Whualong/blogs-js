@@ -30,7 +30,7 @@ Function.prototype.mybind = function () {
   const ctx = args.shift()
   const myBind = function () {
     const args2 = Array.from(arguments)
-    fn.apply(this instanceof myBind ? this : ctx, args.concat(args2)) //判断是否是构造函数调用
+    return fn.apply(this instanceof myBind ? this : ctx, args.concat(args2)) //判断是否是构造函数调用
   }
   Noop.prototype = this.prototype
   myBind.prototype = new Noop()
