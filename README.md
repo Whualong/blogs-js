@@ -14,7 +14,8 @@
 | [vue基础原理](#vue)   |  4   |
 | [node重点](#node)    |  1   |
 | [git工具](#git) |  1  |
-| 总计 | 64 |
+| [typescript学习](#ts) | 1 |
+| 总计 | 65 |
 
 #### <p id='css'>css 基础</p>
 
@@ -179,3 +180,8 @@ ___
 
 [02.git merge、git rebase、git merge --no-ff 区别](https://github.com/Whualong/blogs-js/tree/main/src/git/02-merge.md)
 
+___
+
+#### <p id='ts'>typescript学习</p>
+
+[01.any与unknown的区别](https://github.com/Whualong/blogs-js/tree/main/src/ts/01-any-unk.md)
