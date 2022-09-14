@@ -1,21 +1,22 @@
-## blog 
+## blog
+
 **个人博客，关于css、js的原生知识、算法、vue框架的原理学习，与君共勉**
 
 #### 目录
 
-|  名称 | 条数  |
-| :--------------------: | :--: |
-| [css基础]( #css)  |  4  |
-| [js重点](#js1)     |  24  |
-| [js基础算法](#js2)   |  9   |
-| [js常用工具](#js3)   |  15  |
-| [js常用设计模式](#js4) |  4   |
-| [js性能优化](#js5)   |  2  |
-| [vue基础原理](#vue)   |  4   |
-| [node重点](#node)    |  1   |
-| [git工具](#git) |  2  |
-| [typescript学习](#ts) | 1 |
-| 总计 | 65 |
+| 名称                  | 条数  |
+|:-------------------:|:---:|
+| [css基础]( #css)      | 4   |
+| [js重点](#js1)        | 24  |
+| [js基础算法](#js2)      | 9   |
+| [js常用工具](#js3)      | 16  |
+| [js常用设计模式](#js4)    | 4   |
+| [js性能优化](#js5)      | 2   |
+| [vue基础原理](#vue)     | 4   |
+| [node重点](#node)     | 1   |
+| [git工具](#git)       | 2   |
+| [typescript学习](#ts) | 1   |
+| 总计                  | 66  |
 
 #### <p id='css'>css 基础</p>
 
@@ -100,6 +101,7 @@ ___
 [08.实现类似getElementsByClassName的功能](https://github.com/Whualong/blogs-js/tree/main/src/algorithm/01-quickSort.md)
 
 [09.实现一个二叉树](https://github.com/Whualong/blogs-js/tree/main/src/algorithm/01-quickSort.md)
+
 ___
 
 #### <p id='js3'>js 常用工具</p>
@@ -133,6 +135,8 @@ ___
 [14.jsonp高级版本（ 增加错误处理和回调函数 ）](https://github.com/Whualong/blogs-js/tree/main/src/utils/14-jsonp1.md)
 
 [15.深拷贝的实现 ](https://github.com/Whualong/blogs-js/tree/main/src/utils/15-deepCopy.md)
+
+[16.浮点运算的实现](https://github.com/Whualong/blogs-js/tree/main/src/utils/16-floatOpt.md)
 
 ___
 
